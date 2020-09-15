@@ -1,0 +1,882 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9957500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5774067200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:56:43.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3837822400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "automationpractice---customer;successful-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1580922300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sign in link",
+            "match": {
+              "location": "Steps.click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164687100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters Email as \"viji2903@gmail.com\" and Password as \"Password101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"viji2903@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Password101\"",
+                  "offset": 58
+                }
+              ],
+              "location": "Steps.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366464400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35188700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Account name should be \"Test Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Test\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.account_name_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3795560400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on Sign out link",
+            "match": {
+              "location": "Steps.user_click_on_Log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15496200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Page Title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 579468600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 902100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6092808300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:57:01.010Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3014532300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "automationpractice---customer;successful-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 545570900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630483300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sign in link",
+            "match": {
+              "location": "Steps.click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169987400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters Email as \"negativetest1765@gmail.com\" and Password as \"NegativeTest100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"negativetest1765@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"NegativeTest100\"",
+                  "offset": 66
+                }
+              ],
+              "location": "Steps.user_enters_Email_as_and_Password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 726611200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login",
+            "match": {
+              "location": "Steps.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.Steps.account_name_should_be(Steps.java:110)\r\n\tat ✽.Account name should be \"Test Test\"(file:Features/Login.feature:11)\r\n",
+              "duration": 51859300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Account name should be \"Test Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Test\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.account_name_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click on Sign out link",
+            "match": {
+              "location": "Steps.user_click_on_Log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Page Title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 298100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5948514500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:57:13.254Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2981132700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Send message to the customer service",
+        "description": "",
+        "id": "automationpractice---customer;send-message-to-the-customer-service",
+        "after": [
+          {
+            "result": {
+              "duration": 109800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2071643300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Contact us link",
+            "match": {
+              "location": "Steps.click_on_Contact_us_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214794100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters contact as \"testmessage@test.com\" and Subject as \"Customer service\" and message as \"Test message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testmessage@test.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Customer service\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"Test message\"",
+                  "offset": 95
+                }
+              ],
+              "location": "Steps.user_enters_contact_as_and_Subject_as_and_message_as(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705686000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on Send",
+            "match": {
+              "location": "Steps.click_on_send()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17007300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can view confirmation message \"Your message has been successfully sent to our team.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your message has been successfully sent to our team.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.user_can_view_confirmation_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 581098200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 578500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5606754900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:57:25.781Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3018844100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Category filtering",
+        "description": "",
+        "id": "automationpractice---customer;category-filtering",
+        "after": [
+          {
+            "result": {
+              "duration": 1393080800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1709448300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Dresses menu option",
+            "match": {
+              "location": "Steps.click_on_dresses_menu_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1255522900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click Casual Dresses sub category",
+            "match": {
+              "location": "Steps.Click_Casual_Dresses_sub_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18490000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Displayed is \"Printed Dress\" on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Printed Dress\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.displayed_is_on_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 897600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5521173400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:57:38.789Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2999429400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Display Casual dress",
+        "description": "",
+        "id": "automationpractice---customer;display-casual-dress",
+        "after": [
+          {
+            "result": {
+              "duration": 574490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1899600200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on Dresses menu option",
+            "match": {
+              "location": "Steps.click_on_dresses_menu_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1208885000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click Casual Dresses sub category",
+            "match": {
+              "location": "Steps.Click_Casual_Dresses_sub_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1419231500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User choose Printed Dress from the selection",
+            "match": {
+              "location": "Steps.user_choose_printed_dress_from_the_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19411700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Condition is \"Condition New\" on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Condition New\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.condition_is_on_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are common steps for every scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 275200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5642861200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-15T05:57:52.437Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2980209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Display summer dress",
+        "description": "",
+        "id": "automationpractice---customer;display-summer-dress",
+        "after": [
+          {
+            "result": {
+              "duration": 573341300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1732570000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on Dresses menu option",
+            "match": {
+              "location": "Steps.click_on_dresses_menu_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1521784000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click Summer Dresses sub category",
+            "match": {
+              "location": "Steps.Click_Summer_Dresses_sub_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1570234400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User choose Printed Summer Dress from the selection",
+            "match": {
+              "location": "Steps.user_choose_printed_summer_dress_from_the_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27048000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "The More Info section is displayed",
+            "match": {
+              "location": "Steps.the_more_info_section_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AutomationPractice - Customer",
+    "description": "",
+    "id": "automationpractice---customer",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

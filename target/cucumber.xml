@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="82.64822">
+<testcase classname="AutomationPractice - Customer" name="Successful Login with Valid Credentials" time="17.181502">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Sign in link..................................................passed
+And User enters Email as "viji2903@gmail.com" and Password as "Password101".passed
+And Click on Login..........................................................passed
+Then Account name should be "Test Test".....................................passed
+When User click on Sign out link............................................passed
+Then Page Title should be "Login - My Store"................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="AutomationPractice - Customer" name="Successful Login with Valid Credentials 2" time="12.239261">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinitions.Steps.account_name_should_be(Steps.java:110)&#13;&#10;&#9;at ✽.Account name should be &quot;Test Test&quot;(file:Features/Login.feature:11)&#13;&#10;"><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Sign in link..................................................passed
+And User enters Email as "negativetest1765@gmail.com" and Password as "NegativeTest100".passed
+And Click on Login..........................................................passed
+Then Account name should be "Test Test".....................................failed
+When User click on Sign out link............................................skipped
+Then Page Title should be "Login - My Store"................................skipped
+And Close browser...........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.Steps.account_name_should_be(Steps.java:110)
+	at ✽.Account name should be "Test Test"(file:Features/Login.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="AutomationPractice - Customer" name="Send message to the customer service" time="12.523428">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Contact us link...............................................passed
+And User enters contact as "testmessage@test.com" and Subject as "Customer service" and message as "Test message".passed
+And Click on Send...........................................................passed
+Then User can view confirmation message "Your message has been successfully sent to our team.".passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="AutomationPractice - Customer" name="Category filtering" time="13.00622">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Dresses menu option...........................................passed
+And Click Casual Dresses sub category.......................................passed
+Then Displayed is "Printed Dress" on the page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="AutomationPractice - Customer" name="Display Casual dress" time="13.646932">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Dresses menu option...........................................passed
+And Click Casual Dresses sub category.......................................passed
+When User choose Printed Dress from the selection...........................passed
+Then Condition is "Condition New" on the page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="AutomationPractice - Customer" name="Display summer dress" time="14.050877">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://automationpractice.com/index.php"...............passed
+When Click on Dresses menu option...........................................passed
+And Click Summer Dresses sub category.......................................passed
+When User choose Printed Summer Dress from the selection....................passed
+Then The More Info section is displayed.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
